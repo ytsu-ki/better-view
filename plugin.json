@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "better-view",
+  "displayName": "Better View",
+  "version": "0.5.0",
+  "description": "Sidebar for Antigravity: task checklist, every agent of a Teamwork run on one screen, remaining quota and context, and stall detection with notifications.",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Open Better View",
+    "Open Better View so I can watch this Teamwork run",
+    "Open Better View to check my remaining quota and context"
+  ],
+  "author": {
+    "name": "ytsu-ki",
+    "url": "https://github.com/ytsu-ki"
+  },
+  "homepage": "https://github.com/ytsu-ki/better-view",
+  "repository": "https://github.com/ytsu-ki/better-view",
+  "keywords": [
+    "progress",
+    "monitor",
+    "sidebar",
+    "teamwork"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "view": {
+      "command": "/bin/sh",
+      "args": ["${PLUGIN_ROOT}/mcp/run.sh"],
+      "env": { "BETTER_VIEW_NOTIFY": "auto" }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Better View</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <span class="brand">Better View</span>
+  <span class="conn" id="conn"><i></i><span>…</span></span>
+  <button class="lang" id="lang" type="button" hidden></button>
+</header>
+
+<section class="usage" id="usage" aria-label="Usage"></section>
+<section class="ctx" id="ctx" aria-label="Context"></section>
+
+<div class="picker-row"><select id="picker" aria-label="Task"></select></div>
+
+<main id="run"><div class="empty">…</div></main>
+
+<div class="tip" id="tip" role="tooltip"></div>
+<script src="app.js" type="module"></script>
+</body>
+</html>

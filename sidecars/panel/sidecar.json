@@ -1,0 +1,29 @@
+{
+  "command": "/bin/sh",
+  "args": [
+    "run.sh"
+  ],
+  "restart_policy": "on-failure",
+  "display_name": "Better View",
+  "description": "Shows what each agent is doing, how far it has got, and whether it looks stuck. Read-only.",
+  "has_web_ui": true,
+  "ui_config": {
+    "display_name": "Better View",
+    "views": [
+      {
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_SIDEBAR",
+        "path": "/sidebar",
+        "title": "Better View"
+      },
+      {
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "path": "/aux",
+        "title": "Better View"
+      }
+    ]
+  },
+  "env": {
+    "BETTER_VIEW_NOTIFY": "auto"
+  },
+  "disabled": true
+}

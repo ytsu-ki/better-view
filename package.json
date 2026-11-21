@@ -1,0 +1,15 @@
+{
+  "name": "better-view",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Antigravity agent progress view: timeline, stall detection, usage and context meters.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node sidecars/panel/server.mjs",
+    "test": "BETTER_VIEW_LANG=zh node --test test/"
+  }
+}
